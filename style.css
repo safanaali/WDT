@@ -1,3 +1,97 @@
-p{
+/* CSS Styles for Different HTML Elements */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(./computer.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+h2 {
+    color: #555;
+    font-size: 24px;
+}
+
+/* Paragraphs */
+p {
+    color: #cd1212;
+    font-size: 16px;
+    line-height: 1.5;
+}
+div {
+    color: #007bff;
+    font-size: 16px;
+    
+}
+span {
+    color: darkolivegreen;
+    font-family: Georgia;
+    
+    
+}
+ul{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+
+}
+a:link {
+    color: #000;
+    background-color: #f0f0f0;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
     color: red;
+
+}
+a:active {
+    color: #000;
+
+}
+
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    color: #444;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
