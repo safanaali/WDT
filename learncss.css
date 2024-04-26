@@ -1,0 +1,42 @@
+body{
+
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: purple;
+}
+.container{
+
+width: 334px;
+height: 1744px;
+background-color:yellow;
+background-image: url(./cssimg.jpeg);
+border: 10px solid red;
+background-repeat: no-repeat;
+background-size: contain;
+/* background-position: center center; */
+background-attachment:fixed ;
+/* background: #000; */
+
+}
+    .blue,h3{
+        background-color: aqua;
+        color: white;
+        
+    }
+p.red{
+    background-color: yellow;
+    height: 60px;
+}
+.white{
+    background-color: pink;
+}
+
+    div.red{
+        background-color: red;
+        color: white;
+    }
