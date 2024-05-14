@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chapter8</title>
+    <style>
+      .container {
+        background-color: red;
+        height: 50vh;
+      }
+      .box {
+        border: 2px solid black;
+        display: inline-block;
+
+        /* transform: translate(135px, 56px) rotate(25deg) skew(10deg, 20deg); */
+        /* transform: rotate(45deg);
+            transform-origin: 0; */
+
+        /* transform: scaley(4); */
+        /* transform: skew(40deg,20deg);
+         */
+        /* transform: skew(10deg, 20deg); */
+        /* transform: matrix(); */
+      }
+      img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+        height: 100px;
+
+        /* transition-property: width;
+        transition-duration: 1s;
+
+        transition-timing-function: ease-in-out; */
+        transition: width 2s ease-in 2s;
+      }
+      img:hover{
+        width: 25vw;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img id="myImg" src="./cssimg.jpeg" alt="flowers" />
+        <!-- <button id="sub">Toggle</button> -->
+      </div>
+    </div>
+   
+  </body>
+</html>
